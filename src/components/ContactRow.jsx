@@ -5,5 +5,6 @@ export default function ContactRow({ contact, setSelectedContactId })
 			<td>{contact.name}</td>
 			<td>{contact.email}</td>
 			<td>{contact.phone}</td>
-		</tr>)
+		</tr>
+	)
 }

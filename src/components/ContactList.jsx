@@ -11,7 +11,7 @@ const dummyContacts =
 export default function ContactList({setSelectedContactId})
 {
 	const [contacts, setContacts] = useState(dummyContacts);
-	console.log(contacts);
+	// console.log(contacts);
 
 	useEffect(() =>
 	{

@@ -31,6 +31,8 @@ export default function SelectedContact({selectedContactId, setSelectedContactId
 					<ContactRow contact={contact} setSelectedContactId={setSelectedContactId} />
 				</tbody>
 			</table>
+
+			<button onClick={() => {setSelectedContactId(null)}}>Return</button>
 		</>
 	)
 }
